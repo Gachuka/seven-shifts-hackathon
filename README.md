@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a industry hackathon for [7Shifts](https://www.7shifts.com/) that was completed at Brainstation with the collaboration of [Daniel Martin](https://www.linkedin.com/in/danieljcmartin/) (UX), [Leila Golestanha](https://www.linkedin.com/in/leilagolestanha/) (UX), [Violet Wang](https://www.linkedin.com/in/violetcwang/) (UX), [Nicholas Huynh](https://www.linkedin.com/in/nickhuynhq/) (WebDev) and [Li Yu](https://www.linkedin.com/in/li-yu-developer/) (WebDev).
 
-## Available Scripts
+### Problem
 
-In the project directory, you can run:
+7Shifts presented a simple yet complicated problem:
 
-### `npm start`
+**Problem Space:** Employee turnover rate in the restaurant industry is at an all time high.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Research
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Initial research
 
-### `npm test`
+* Turnover rate of 70%, reaching a new high of 140% in 2022 - Forbes
+* More than 70% job positions vacant, and 3 out of 4 employees planning to leave in the next year. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Initial How Might We:** Help restaurants hire and retain employees?
 
-### `npm run build`
+### Secondary Research
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* People think of restaurant industry positions as a stepping stone in their career 
+* Lack of sufficient training, 70% of employees feel they do not have hands on training from their managers.
+* Lack of team building activities and career progression opportunities.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Summary: Feeling Valued
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All of these issues add up to the overall problem of “feeling valued”.  
+How can we tell a new narrative to current and prospective employees that show upward career mobility?
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Revised How Might We:** How might we help managers make their staff feel more valued through digital solutions, in order to improve retention?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Proposition
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+After analysing existing features on 7Shifts platform and competitor platform, we have found a way for 7Shifts to standout.  
+Focus on employee infrastructure, with the goal of scaling the business through retaining employees.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Skillbuilding
 
-## Learn More
+* A new feature that focuses on creating opportunities for employees to grow in their career
+* Build towards growing their individual abilities, with the potential for employees to receive promotion.
+* Reduce feelings of stagnancy, and show employees the value of building their skills in the restaurant industry as a career.
+* Research reinforces that it costs less to train employees than constantly hire, so why not focus on the team you have?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Task Flow and Sketches - Skillbuilding
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+  <img src="./src/assets/images/7shifts-hackathon-taskflow.png" width="45%" />
+  <img src="./src/assets/images/7shifts-hackathon-sketches.png" width="45%" /> 
+</p>
 
-### Code Splitting
+## Final build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+With the task flow in mind and the the sketches established, we were able to proceed to build our solution to the problem.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<kbd>![demo](./src/assets/images/7shifts-hackathon-preview.png?raw=true)</kbd>
