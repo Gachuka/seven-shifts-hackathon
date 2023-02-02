@@ -2,7 +2,7 @@ import './Navbar.scss';
 import burgerIcon from '../../assets/icons/svg/hamburger-svgrepo-com.svg'
 import sevenShiftsLogo from '../../assets/logos/svg/logo-full-colour.svg'
 import { NavLink } from 'react-router-dom'
-import userProfile from '../../assets/images/user.png'
+// import userProfile from '../../assets/images/user.png'
 
 function Navbar() {
   return (
@@ -23,7 +23,7 @@ function Navbar() {
         <div className='navbar__profile'>
           <div className='navbar__profile-option p2'>PROFILE OPTIONS</div>
           <div className='navbar__profile-icon'>
-            // <img className='navbar__profile-icon-img' scr={userProfile} alt="user profile stamp"/>
+            {/* <img className='navbar__profile-icon-img' scr={userProfile} alt="user profile stamp"/> */}
           </div>
           <img className='navbar__seven-shifts-logo' src={sevenShiftsLogo} alt='seven shifts logo'/>
         </div>
